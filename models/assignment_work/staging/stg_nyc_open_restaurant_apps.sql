@@ -25,7 +25,6 @@ cleaned AS (
 
        -- Date/Time
        CAST(time_of_submission AS TIMESTAMP) AS time_of_submission,
-       CAST(closed_date AS TIMESTAMP) AS closed_date,
 
        --qualify_alcohol
        CASE 
