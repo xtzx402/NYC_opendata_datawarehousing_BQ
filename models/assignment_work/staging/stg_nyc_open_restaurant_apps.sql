@@ -42,6 +42,7 @@ cleaned AS (
        CAST(street AS STRING) AS street,
        CAST(latitude AS DECIMAL) AS latitude,
        CAST(longitude AS DECIMAL) AS longitude,
+       CAST(borough AS STRING) AS borough,
 
        -- Metadata
        CURRENT_TIMESTAMP() AS _stg_loaded_at
